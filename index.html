@@ -44,17 +44,19 @@
 
     <main>
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">AILLA Lab</a>
+        <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#">
+            <img src="assets/imgs/Lab_logo.png"..." height="55">
+          </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Home </a>
-              <a class="nav-item nav-link" href="#">Projects</a>
+              <!-- <a class="nav-item nav-link active" href="#">Home </a> -->
+              <!-- <a class="nav-item nav-link" href="#">Projects</a>
               <a class="nav-item nav-link" href="#">People</a>
-              <a class="nav-item nav-link" href="#">Publications</a>
+              <a class="nav-item nav-link" href="#">Publications</a> -->
 
             </div>
           </div>
@@ -85,8 +87,8 @@
          
 
          <h5>  1.	To build a community of researchers and inventors in language learning and assessment. </h5>
-         <h5> 2.	To develop AI-based technologies and products for improving language learning and assessment. </h5>
-          <h5> 3.	To investigate the impact of AI technologies on language learning and assessment. </h5>
+         <h5> 2. To develop AI-based technologies and products for improving language learning and assessment. </h5>
+          <h5> 3.	To investigate societal and ethical issues of AI powered language learning and assessment technologies. </h5>
 
       </div>
       </div>
@@ -106,7 +108,10 @@
 
           <ul class="nav nav-tabs mb-3 flex-column flex-sm-row" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Multimodal Language Learning</button>
+              <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-all-projects" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">All Projects</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Multimodal Language Learning</button>
             </li>
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Text Readability and Complexity</button>
@@ -117,9 +122,9 @@
             </li>
           </ul>
           <div class="tab-content" id="pills-tabContent">
-             <!-- Multimodality  -->
-            
-             <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+            <!-- ALL projects -->
+            <div class="tab-pane fade show active" id="pills-all-projects" role="tabpanel" aria-labelledby="pills-profile-tab">
               <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                   <div class="card">
@@ -142,6 +147,84 @@
                     </div>
                   </div>
                 </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="card">
+                    <img src="assets/imgs/arabic_font_1.jpeg" class="card-img-top img-fluid rounded maxHeight" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Arabic Text Readability</h5>
+                      <p class="card-text">
+
+                        Text readability is essential for developing reading literacy and a prerequisite for developing other skills. The aim of the Arabic readability project is to investigate what makes Arabic texts difficult for students in general education (K1 -12) and to develop an opened-sourced web application for automatically assessing text readability in Arabic using a machine learning approach.                       
+                      </p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="card">
+                    <img src="assets/imgs/ats.png" class="card-img-top img-fluid rounded maxHeight" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Automatic Adjustment of Text Difficulty </h5>
+                      <p class="card-text">
+                        The aim of this project is to examine the impact of adjusting the level of reading difficulty on language learners’ understanding of reading text. To this end, we will design and develop a novel automatic text simplification (ATS) web application for automatically adjusting the reading difficulty of texts based on real-time analysis of text, learners’ eye-movements, and facial temperatures. 
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="card">
+                    <div class="media"> 
+                    <img  src="assets/imgs/arabic_font.jpeg" class="card-img-top img-fluid rounded maxHeight" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Arabic Font Design and Complexity </h5>
+                      <p class="card-text">
+                        The project aims to examine the interplay between font aesthetics and complexity and their impact on readers’ mode, reading speed and comprehension.                       </p>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="card">
+                    <img src="assets/imgs/crowdyq.jpeg" class="card-img-top img-fluid rounded maxHeight" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">CrowdyQ: A Decentralized Platform for Item Development at a Scale </h5>
+                      <p class="card-text">
+                        Writing exam items by a small, designated committee of exam developers is a common practice in colleges and universities around the world. However, in adopting this approach, some higher institutions might be confronted with some obstacles such as the unavailability of skilful exam developers and proper resources. To address this issue, we propose CrowdyQ, a virtual crowdsourcing platform, to help language instructors and test item developers investigate the impact of involving a large number of same-subject university instructors in the creation and evaluation of question items in a collaborative manner for the purpose of developing high quality exam items.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+             <!-- Multimodality  -->
+            
+             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+              <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="card">
+                    <img src="assets/imgs/visual_complexity.jpeg" class="card-img-top img-fluid rounded maxHeight" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Visual Complexity in Instructional Videos  </h5>
+                      <p class="card-text">
+                        Through multiple experiments, this project aims to assess the impact of visual complexity on viewing comprehension and develop a set of design principles for effective use of visuals in instructional videos.                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                  <div class="card">
+                    <img src="assets/imgs/AUVANA_v1.2.png" class="card-img-top img-fluid rounded maxHeight" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">AUVANA</h5>
+                      <p class="card-text">
+                        Visual complexity is widely considered to be an important variable underlying visual perception. While videos have become versatile in their use of visual imagery, surprisingly, little research has been devoted to understanding the impact of visual complexity. In this paper, we present Automated Video Analysis (AUVANA) software, an open-source tool for extracting, computing, and visualizing visual complexity in digital videos. Through leveraging more sophisticated computer vision and video processing algorithms, AUVANA automatically extracts and computes 78 video visual complexity indices.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
 
@@ -161,7 +244,7 @@
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                   <div class="card">
-                    <img src="assets/imgs/arabic_readability.jpeg" class="card-img-top img-fluid rounded maxHeight" alt="...">
+                    <img src="assets/imgs/arabic_font_1.jpeg" class="card-img-top img-fluid rounded maxHeight" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Arabic Text Readability</h5>
                       <p class="card-text">
@@ -169,8 +252,9 @@
                         Text readability is essential for developing reading literacy and a prerequisite for developing other skills. The aim of the Arabic readability project is to investigate what makes Arabic texts difficult for students in general education (K1 -12) and to develop an opened-sourced web application for automatically assessing text readability in Arabic using a machine learning approach.                       
                       </p>
                     </div>
-                  </div>
+                    </div>
                 </div>
+             
                 <div class="col-lg-4 col-md-12 col-sm-12">
                   <div class="card">
                     <div class="media"> 
