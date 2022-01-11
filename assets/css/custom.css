@@ -15,7 +15,8 @@
     font-size: larger;
   }
   .maxHeight {
-    max-height: 300px;
+    min-height: 255px;
+    max-height: 250px;
   }
 
   body {
