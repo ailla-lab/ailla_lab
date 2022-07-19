@@ -12,7 +12,8 @@
     }
   }
   .nav-item {
-    font-size: larger;
+    font-size: large;
+    color: black;
   }
   .maxHeight {
     min-height: 255px;
@@ -23,4 +24,9 @@
 
     font-family: "Open Sans";
     background: white !important;
+  }
+
+
+  #navbarNavAltMarkup{
+    margin-left: 1.5em;
   }
