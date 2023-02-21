@@ -1,0 +1,43 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.nav-item {
+  font-size: large;
+  color: black;
+}
+.maxHeight {
+  min-height: 255px;
+  max-height: 250px;
+}
+
+body {
+  font-family: "Montserrat";
+  background: white !important;
+}
+
+.card-link {
+  text-decoration: none;
+  color: black;
+}
+
+#navbarNavAltMarkup {
+  margin-left: 1.5em;
+}
+
+.heading-bold-800 {
+  font-weight: 800;
+}
+
+.heading-bold-400 {
+  font-weight: 400;
+}
